@@ -72,7 +72,7 @@
           and is
           <a href="https://leethabo27.github.io/weather-app/" target="_blank">on GitHub</a>
           and
-          <a href="https://chimerical-jalebi-fdaaef.netlify.app/" target="_blank">hosted on Netlify</a>.
+          <a href="https://regal-basbousa-4d2b8a.netlify.app/" target="_blank">hosted on Netlify</a>.
         </p>
         <p>
           View the full source code on 

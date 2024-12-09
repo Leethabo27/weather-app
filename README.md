@@ -69,13 +69,13 @@
           This project was coded by
           <a href="https://github.com/Leethabo27" target="_blank">Lethabo Semenya</a>
           and is
-          <a href="https://github.com/Leethabo27/my-weather-app" target="_blank">on GitHub</a>
+          <a href="https://leethabo27.github.io/weather-app/" target="_blank">on GitHub</a>
           and
           <a href="https://chimerical-jalebi-fdaaef.netlify.app/" target="_blank">hosted on Netlify</a>.
         </p>
         <p>
           View the full source code on 
-          <a href="https://github.com/Leethabo27/my-weather-app" target="_blank">GitHub</a>.
+          <a href="https://leethabo27.github.io/weather-app/" target="_blank">GitHub</a>.
         </p>
       </footer>
     </div>

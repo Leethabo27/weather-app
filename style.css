@@ -1,0 +1,115 @@
+body {
+    background: #f9f7fe;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.weather-app {
+    background: url('weather11222.png') no-repeat center center;
+    background-size: cover;
+    max-width: 600px;
+    width: 200%;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+
+.weather-app::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 12px;
+    z-index: 0;
+}
+
+.weather-app>* {
+    position: relative;
+    z-index: 1;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+input[type="search"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 15px;
+    background: #12091f;
+    color: #e5ddf0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #060508;
+}
+
+.current-weather {
+    margin-bottom: 20px;
+}
+
+#current-city {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#current-time {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.current-temperature {
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.unit {
+    font-size: 24px;
+}
+
+
+.forecast {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.forecast-day {
+    text-align: center;
+    font-size: 14px;
+}
+
+.forecast-day span {
+    font-size: 24px;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 12px;
+}

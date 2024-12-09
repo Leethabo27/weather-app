@@ -9,7 +9,6 @@ body {
     min-height: 100vh;
 }
 
-
 .weather-app {
     background: url('weather11222.png') no-repeat center center;
     background-size: cover;
@@ -22,7 +21,6 @@ body {
     color: #fff;
     position: relative;
 }
-
 
 .weather-app::before {
     content: "";
@@ -93,7 +91,6 @@ button:hover {
     font-size: 24px;
 }
 
-
 .forecast {
     display: flex;
     justify-content: space-between;
@@ -112,4 +109,16 @@ button:hover {
 footer {
     margin-top: 20px;
     font-size: 12px;
+}
+
+/* Footer links style */
+footer a {
+    color: lightblue; 
+    text-decoration: none; 
+}
+
+/* Footer link hover style */
+footer a:hover {
+    color: #add8e6; 
+    text-decoration: underline; 
 }
